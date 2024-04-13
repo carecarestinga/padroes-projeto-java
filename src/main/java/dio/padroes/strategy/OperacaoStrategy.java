@@ -2,10 +2,15 @@ package dio.padroes.strategy;
 
 /**
  * Interface que irá fazer o contrato de suas funções com as que contratarem
- * e implementarem seus serviços
+ * e implementarem seus serviços das opreações
  */
 public interface OperacaoStrategy {
-
-    double executarCalculoOperacao(double paramUm, double paramDois);
+    /**
+     * Método a ser implementado aos contratos
+     * @param paramUm utilizados nas operações
+     * @param paramDois utilizados nas operações
+     * @return
+     */
+    double executarCalculo(double paramUm, double paramDois);
 
 }

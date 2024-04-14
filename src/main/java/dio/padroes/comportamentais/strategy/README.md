@@ -3,6 +3,8 @@
 
 - Neste exemplo em Java, implementamos uma calculadora simples usando o padrão Strategy. As operações matemáticas, como soma, subtração e multiplicação, são encapsuladas em classes separadas que implementam a mesma interface. A classe Calculadora utiliza um objeto de uma dessas classes para executar a operação desejada.
 
+<img src="img/Strategy.png" />
+
 
 ## Estrutura do Projeto
 

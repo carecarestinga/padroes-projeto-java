@@ -1,4 +1,4 @@
-package dio.padroes.strategy;
+package dio.padroes.comportamentais.strategy.service;
 
 /**
  * Interface que irá fazer o contrato de suas funções com as que contratarem

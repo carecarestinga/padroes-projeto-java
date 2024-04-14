@@ -1,8 +1,9 @@
-package dio.padroes.strategy;
+package dio.padroes.comportamentais.strategy;
 
-import dio.padroes.strategy.impl.MultiplicacaoStrategyImpl;
-import dio.padroes.strategy.impl.SomaStrategyImpl;
-import dio.padroes.strategy.impl.SubtracaoStrategyImpl;
+import dio.padroes.comportamentais.strategy.service.impl.SomaStrategyImpl;
+import dio.padroes.comportamentais.strategy.service.impl.SubtracaoStrategyImpl;
+import dio.padroes.comportamentais.strategy.service.impl.MultiplicacaoStrategyImpl;
+import dio.padroes.comportamentais.strategy.model.CalculadoraStrategy;
 
 /**
  * Classe Principal da Aplicação que irá formar os contextos

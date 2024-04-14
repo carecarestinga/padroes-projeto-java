@@ -1,6 +1,6 @@
-package dio.padroes.strategy.impl;
+package dio.padroes.comportamentais.strategy.service.impl;
 
-import dio.padroes.strategy.OperacaoStrategy;
+import dio.padroes.comportamentais.strategy.service.OperacaoStrategy;
 
 /**
  * Classe que implementa a Interface OperacaoStrategy
